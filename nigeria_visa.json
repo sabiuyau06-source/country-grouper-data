@@ -1,0 +1,721 @@
+{
+ "schema": 1,
+ "version": 1,
+ "updated": "2026-10-16",
+ "passport": "Nigeria",
+ "about": "Entry rules for holders of an ordinary Nigerian passport. Always confirm with the embassy before travelling.",
+ "sources": [
+  "https://en.wikipedia.org/wiki/Visa_requirements_for_Nigerian_citizens",
+  "https://github.com/ilyankou/passport-index-dataset (MIT)"
+ ],
+ "countries": {
+  "Afghanistan": {
+   "status": "e-visa",
+   "days": 30
+  },
+  "Albania": {
+   "status": "e-visa"
+  },
+  "Algeria": {
+   "status": "visa required"
+  },
+  "Andorra": {
+   "status": "visa required"
+  },
+  "Angola": {
+   "status": "e-visa",
+   "note": "Visa waiver for diplomatic/official passports only (Feb 2026)"
+  },
+  "Antigua and Barbuda": {
+   "status": "e-visa"
+  },
+  "Argentina": {
+   "status": "visa required"
+  },
+  "Armenia": {
+   "status": "visa required"
+  },
+  "Australia": {
+   "status": "visa required"
+  },
+  "Austria": {
+   "status": "visa required"
+  },
+  "Azerbaijan": {
+   "status": "visa required"
+  },
+  "Bahamas": {
+   "status": "e-visa"
+  },
+  "Bahrain": {
+   "status": "e-visa"
+  },
+  "Bangladesh": {
+   "status": "visa required"
+  },
+  "Barbados": {
+   "status": "visa-free",
+   "days": 180
+  },
+  "Belarus": {
+   "status": "visa required"
+  },
+  "Belgium": {
+   "status": "visa required"
+  },
+  "Belize": {
+   "status": "visa required"
+  },
+  "Benin": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Bhutan": {
+   "status": "e-visa"
+  },
+  "Bolivia": {
+   "status": "visa required"
+  },
+  "Bosnia and Herzegovina": {
+   "status": "visa required"
+  },
+  "Botswana": {
+   "status": "e-visa"
+  },
+  "Brazil": {
+   "status": "visa required"
+  },
+  "Brunei": {
+   "status": "visa required"
+  },
+  "Bulgaria": {
+   "status": "visa required"
+  },
+  "Burkina Faso": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "Visa-free (AES states keep free movement for ECOWAS citizens)"
+  },
+  "Burundi": {
+   "status": "visa required"
+  },
+  "Cambodia": {
+   "status": "visa on arrival",
+   "days": 30,
+   "note": "Visa on arrival or e-visa"
+  },
+  "Cameroon": {
+   "status": "visa-free",
+   "days": 90
+  },
+  "Canada": {
+   "status": "visa required"
+  },
+  "Cape Verde": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Central African Republic": {
+   "status": "visa required"
+  },
+  "Chad": {
+   "status": "visa-free",
+   "days": 90
+  },
+  "Chile": {
+   "status": "visa required"
+  },
+  "China": {
+   "status": "visa required"
+  },
+  "Colombia": {
+   "status": "e-visa"
+  },
+  "Comoros": {
+   "status": "visa on arrival"
+  },
+  "Costa Rica": {
+   "status": "visa required"
+  },
+  "Cote d'Ivoire": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Croatia": {
+   "status": "visa required"
+  },
+  "Cuba": {
+   "status": "visa required"
+  },
+  "Cyprus": {
+   "status": "visa required"
+  },
+  "Czechia": {
+   "status": "visa required"
+  },
+  "DR Congo": {
+   "status": "e-visa",
+   "days": 7
+  },
+  "Denmark": {
+   "status": "visa required"
+  },
+  "Djibouti": {
+   "status": "e-visa",
+   "days": 31
+  },
+  "Dominica": {
+   "status": "visa-free",
+   "days": 180
+  },
+  "Dominican Republic": {
+   "status": "visa required"
+  },
+  "Ecuador": {
+   "status": "visa required"
+  },
+  "Egypt": {
+   "status": "visa required"
+  },
+  "El Salvador": {
+   "status": "visa required"
+  },
+  "Equatorial Guinea": {
+   "status": "e-visa"
+  },
+  "Eritrea": {
+   "status": "visa required"
+  },
+  "Estonia": {
+   "status": "visa required"
+  },
+  "Eswatini": {
+   "status": "visa required"
+  },
+  "Ethiopia": {
+   "status": "visa on arrival",
+   "days": 90,
+   "note": "Visa on arrival or e-visa"
+  },
+  "Fiji": {
+   "status": "visa-free",
+   "days": 120
+  },
+  "Finland": {
+   "status": "visa required"
+  },
+  "France": {
+   "status": "visa required"
+  },
+  "Gabon": {
+   "status": "e-visa"
+  },
+  "Gambia": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Georgia": {
+   "status": "visa required"
+  },
+  "Germany": {
+   "status": "visa required"
+  },
+  "Ghana": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Greece": {
+   "status": "visa required"
+  },
+  "Grenada": {
+   "status": "visa required"
+  },
+  "Guatemala": {
+   "status": "visa required"
+  },
+  "Guinea": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Guinea-Bissau": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Guyana": {
+   "status": "visa required"
+  },
+  "Haiti": {
+   "status": "visa-free",
+   "days": 90
+  },
+  "Honduras": {
+   "status": "visa required"
+  },
+  "Hungary": {
+   "status": "visa required"
+  },
+  "Iceland": {
+   "status": "visa required"
+  },
+  "India": {
+   "status": "visa required"
+  },
+  "Indonesia": {
+   "status": "visa required"
+  },
+  "Iran": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Iraq": {
+   "status": "e-visa"
+  },
+  "Ireland": {
+   "status": "visa required"
+  },
+  "Israel": {
+   "status": "visa required"
+  },
+  "Italy": {
+   "status": "visa required"
+  },
+  "Jamaica": {
+   "status": "visa required"
+  },
+  "Japan": {
+   "status": "visa required"
+  },
+  "Jordan": {
+   "status": "visa required"
+  },
+  "Kazakhstan": {
+   "status": "e-visa"
+  },
+  "Kenya": {
+   "status": "visa-free",
+   "days": 60
+  },
+  "Kiribati": {
+   "status": "visa-free",
+   "days": 90
+  },
+  "Kosovo": {
+   "status": "visa required",
+   "note": "(from 2025 dataset)"
+  },
+  "Kuwait": {
+   "status": "visa required"
+  },
+  "Kyrgyzstan": {
+   "status": "e-visa"
+  },
+  "Laos": {
+   "status": "visa required"
+  },
+  "Latvia": {
+   "status": "visa required"
+  },
+  "Lebanon": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Lesotho": {
+   "status": "e-visa"
+  },
+  "Liberia": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Libya": {
+   "status": "e-visa"
+  },
+  "Liechtenstein": {
+   "status": "visa required"
+  },
+  "Lithuania": {
+   "status": "visa required"
+  },
+  "Luxembourg": {
+   "status": "visa required"
+  },
+  "Madagascar": {
+   "status": "visa on arrival",
+   "days": 90,
+   "note": "Visa on arrival or e-visa"
+  },
+  "Malawi": {
+   "status": "e-visa"
+  },
+  "Malaysia": {
+   "status": "e-visa"
+  },
+  "Maldives": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Mali": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "Visa-free (AES states keep free movement for ECOWAS citizens)"
+  },
+  "Malta": {
+   "status": "visa required"
+  },
+  "Marshall Islands": {
+   "status": "visa required"
+  },
+  "Mauritania": {
+   "status": "e-visa"
+  },
+  "Mauritius": {
+   "status": "visa on arrival",
+   "days": 14
+  },
+  "Mexico": {
+   "status": "visa required"
+  },
+  "Micronesia": {
+   "status": "visa-free",
+   "days": 30
+  },
+  "Moldova": {
+   "status": "visa required"
+  },
+  "Monaco": {
+   "status": "visa required"
+  },
+  "Mongolia": {
+   "status": "visa required"
+  },
+  "Montenegro": {
+   "status": "visa required"
+  },
+  "Morocco": {
+   "status": "visa required"
+  },
+  "Mozambique": {
+   "status": "visa on arrival",
+   "days": 30,
+   "note": "Visa on arrival or e-visa"
+  },
+  "Myanmar": {
+   "status": "visa required"
+  },
+  "Namibia": {
+   "status": "visa on arrival"
+  },
+  "Nauru": {
+   "status": "visa required"
+  },
+  "Nepal": {
+   "status": "visa required"
+  },
+  "Netherlands": {
+   "status": "visa required"
+  },
+  "New Zealand": {
+   "status": "visa required"
+  },
+  "Nicaragua": {
+   "status": "visa required"
+  },
+  "Niger": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "Visa-free (AES states keep free movement for ECOWAS citizens)"
+  },
+  "North Korea": {
+   "status": "visa required"
+  },
+  "North Macedonia": {
+   "status": "visa required"
+  },
+  "Norway": {
+   "status": "visa required"
+  },
+  "Oman": {
+   "status": "visa required"
+  },
+  "Pakistan": {
+   "status": "e-visa"
+  },
+  "Palau": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Palestine": {
+   "status": "visa required",
+   "note": "(from 2025 dataset)"
+  },
+  "Panama": {
+   "status": "visa required"
+  },
+  "Papua New Guinea": {
+   "status": "visa required"
+  },
+  "Paraguay": {
+   "status": "visa required"
+  },
+  "Peru": {
+   "status": "visa required"
+  },
+  "Philippines": {
+   "status": "e-visa",
+   "days": 59
+  },
+  "Poland": {
+   "status": "visa required"
+  },
+  "Portugal": {
+   "status": "visa required"
+  },
+  "Qatar": {
+   "status": "e-visa"
+  },
+  "Republic of the Congo": {
+   "status": "visa required",
+   "note": "Visa-free for Africans from 1 Jan 2027 (announced)"
+  },
+  "Romania": {
+   "status": "visa required"
+  },
+  "Russia": {
+   "status": "visa required"
+  },
+  "Rwanda": {
+   "status": "visa on arrival",
+   "days": 30,
+   "note": "Visa on arrival or e-visa"
+  },
+  "Saint Kitts and Nevis": {
+   "status": "visa-free",
+   "days": 90
+  },
+  "Saint Lucia": {
+   "status": "visa required"
+  },
+  "Saint Vincent and the Grenadines": {
+   "status": "visa required"
+  },
+  "Samoa": {
+   "status": "visa on arrival",
+   "days": 60
+  },
+  "San Marino": {
+   "status": "visa required"
+  },
+  "Sao Tome and Principe": {
+   "status": "e-visa",
+   "days": 15
+  },
+  "Saudi Arabia": {
+   "status": "visa required"
+  },
+  "Senegal": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Serbia": {
+   "status": "visa required"
+  },
+  "Seychelles": {
+   "status": "visa required"
+  },
+  "Sierra Leone": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Singapore": {
+   "status": "visa required"
+  },
+  "Slovakia": {
+   "status": "visa required"
+  },
+  "Slovenia": {
+   "status": "visa required"
+  },
+  "Solomon Islands": {
+   "status": "visa required"
+  },
+  "Somalia": {
+   "status": "e-visa",
+   "days": 30
+  },
+  "South Africa": {
+   "status": "e-visa"
+  },
+  "South Korea": {
+   "status": "visa required"
+  },
+  "South Sudan": {
+   "status": "e-visa"
+  },
+  "Spain": {
+   "status": "visa required"
+  },
+  "Sri Lanka": {
+   "status": "visa required"
+  },
+  "Sudan": {
+   "status": "visa required"
+  },
+  "Suriname": {
+   "status": "e-visa"
+  },
+  "Sweden": {
+   "status": "visa required"
+  },
+  "Switzerland": {
+   "status": "visa required"
+  },
+  "Syria": {
+   "status": "e-visa"
+  },
+  "Taiwan": {
+   "status": "visa required",
+   "note": "(from 2025 dataset)"
+  },
+  "Tajikistan": {
+   "status": "e-visa"
+  },
+  "Tanzania": {
+   "status": "visa required"
+  },
+  "Thailand": {
+   "status": "e-visa"
+  },
+  "Timor-Leste": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Togo": {
+   "status": "visa-free",
+   "days": 90,
+   "note": "ECOWAS free movement"
+  },
+  "Tonga": {
+   "status": "visa required"
+  },
+  "Trinidad and Tobago": {
+   "status": "e-visa"
+  },
+  "Tunisia": {
+   "status": "visa required"
+  },
+  "Turkey": {
+   "status": "visa required"
+  },
+  "Turkmenistan": {
+   "status": "visa required"
+  },
+  "Tuvalu": {
+   "status": "visa on arrival",
+   "days": 30
+  },
+  "Uganda": {
+   "status": "visa on arrival",
+   "note": "Visa on arrival or e-visa"
+  },
+  "Ukraine": {
+   "status": "visa required"
+  },
+  "United Arab Emirates": {
+   "status": "e-visa"
+  },
+  "United Kingdom": {
+   "status": "visa required"
+  },
+  "United States": {
+   "status": "visa required"
+  },
+  "Uruguay": {
+   "status": "visa required"
+  },
+  "Uzbekistan": {
+   "status": "visa required"
+  },
+  "Vanuatu": {
+   "status": "visa-free",
+   "days": 30
+  },
+  "Vatican City": {
+   "status": "visa required"
+  },
+  "Venezuela": {
+   "status": "visa required"
+  },
+  "Vietnam": {
+   "status": "e-visa",
+   "days": 90
+  },
+  "Yemen": {
+   "status": "visa required"
+  },
+  "Zambia": {
+   "status": "e-visa"
+  },
+  "Zimbabwe": {
+   "status": "e-visa"
+  }
+ },
+ "changes": [
+  {
+   "id": "2025-01-kenya",
+   "date": "2025-01-22",
+   "country": "Kenya",
+   "type": "status-change",
+   "from": "e-visa / eTA",
+   "to": "visa-free",
+   "title": "Kenya: no more visa or eTA for Nigerians",
+   "details": "Kenya removed the Electronic Travel Authorisation (eTA) requirement for most African countries, including Nigeria. Nigerians can now visit Kenya visa-free for up to 60 days (exceptions: Somalia and Libya nationals).",
+   "source": "https://allafrica.com/stories/202501220142.html",
+   "source_name": "AllAfrica"
+  },
+  {
+   "id": "2025-07-usa",
+   "date": "2025-07-08",
+   "country": "United States",
+   "type": "info",
+   "from": "visa required",
+   "to": "visa required",
+   "title": "USA: Nigerian visitor visas now single-entry, 3 months",
+   "details": "The United States revised its visa reciprocity for Nigerians: most non-immigrant visas (e.g. B1/B2 visitor) are now single-entry and valid for 3 months. A visa is still required.",
+   "source": "https://allafrica.com/stories/202507090027.html",
+   "source_name": "AllAfrica"
+  },
+  {
+   "id": "2026-02-angola",
+   "date": "2026-02-15",
+   "country": "Angola",
+   "type": "agreement",
+   "from": "e-visa",
+   "to": "e-visa",
+   "title": "Nigeria and Angola sign visa waiver agreement (diplomatic & official passports)",
+   "details": "Nigeria and Angola signed a bilateral agreement waiving visa requirements for holders of diplomatic and official passports, on the margins of the 39th African Union Summit. Ordinary (green) passport holders still need an e-visa for Angola.",
+   "source": "https://foreignaffairs.gov.ng/news/nigeria-and-angola-signs-agreement-to-ease-the-movement-of-diplomats-and-government-officials/",
+   "source_name": "Nigeria Ministry of Foreign Affairs"
+  },
+  {
+   "id": "2026-07-congo",
+   "date": "2026-07-15",
+   "country": "Republic of the Congo",
+   "type": "upcoming",
+   "from": "visa required",
+   "to": "visa-free (from 1 Jan 2027)",
+   "title": "Republic of the Congo to drop visas for Nigerians from 1 January 2027",
+   "details": "Congo-Brazzaville announced visa-free entry for all African nationals, including Nigerians, starting 1 January 2027, subject to minimal administrative and security conditions. Until then a visa is still required.",
+   "source": "https://www.legit.ng/nigeria/1724660-two-countries-grant-visa-free-entry-nigerians/",
+   "source_name": "Legit.ng"
+  }
+ ]
+}
