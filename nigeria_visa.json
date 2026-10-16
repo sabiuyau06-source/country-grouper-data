@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "version": 1,
+ "version": 2,
  "updated": "2026-10-16",
  "passport": "Nigeria",
  "about": "Entry rules for holders of an ordinary Nigerian passport. Always confirm with the embassy before travelling.",
@@ -589,7 +589,8 @@
    "status": "e-visa"
   },
   "Tanzania": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Removed from 'referred visa' list Sep 2026 – standard visa process applies"
   },
   "Thailand": {
    "status": "e-visa"
@@ -716,6 +717,18 @@
    "details": "Congo-Brazzaville announced visa-free entry for all African nationals, including Nigerians, starting 1 January 2027, subject to minimal administrative and security conditions. Until then a visa is still required.",
    "source": "https://www.legit.ng/nigeria/1724660-two-countries-grant-visa-free-entry-nigerians/",
    "source_name": "Legit.ng"
+  },
+  {
+   "id": "2026-09-25-tanzania",
+   "date": "2026-09-25",
+   "country": "Tanzania",
+   "type": "info",
+   "from": "visa required (referred visa – prior clearance needed)",
+   "to": "visa required (standard application)",
+   "title": "Tanzania: Nigerians no longer need special 'referred visa' clearance",
+   "details": "Tanzania Immigration Services removed Nigerian nationals from its 'referred visa' category with immediate effect, following amendments in Government Gazette No. 246 of 2026. Holders of ordinary Nigerian passports no longer need special clearance from Tanzanian immigration (which could take up to about two months) before a visa is issued. A visa is still required, applied for through the standard online portal or at designated entry points.",
+   "source": "https://www.thecable.ng/tanzania-removes-special-visa-clearance-requirement-for-nigerians/",
+   "source_name": "TheCable (citing Tanzania Immigration Services notice)"
   }
  ]
 }
