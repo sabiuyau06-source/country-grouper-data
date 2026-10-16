@@ -15,7 +15,7 @@ Fields:
 - `version` – goes up by 1 every time the file changes (apps use this to detect updates)
 - `updated` – date of the last change (YYYY-MM-DD)
 - `countries` – `{ "Country": { "status": "...", "days": 90, "note": "..." } }`
-  - `status` is one of: `visa-free`, `visa on arrival`, `eta`, `e-visa`, `visa required`, `no admission`
+  - `status` is one of: `visa-free`, `visa on arrival`, `eta`, `e-visa`, `visa required`, `restricted` (visas suspended), `no admission`
 - `changes` – newest news first in the apps: `id`, `date`, `country`, `type`
   (`status-change`, `upcoming`, `agreement`, `info`), `from`, `to`, `title`, `details`, `source`, `source_name`
 

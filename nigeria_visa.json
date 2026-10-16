@@ -1,11 +1,13 @@
 {
  "schema": 1,
- "version": 2,
+ "version": 3,
  "updated": "2026-10-16",
  "passport": "Nigeria",
  "about": "Entry rules for holders of an ordinary Nigerian passport. Always confirm with the embassy before travelling.",
  "sources": [
   "https://en.wikipedia.org/wiki/Visa_requirements_for_Nigerian_citizens",
+  "https://www.passportindex.org/passport/nigeria/",
+  "https://www.vanguardngr.com/2026/09/countries-nigerians-can-get-visa-on-arrival-in-2026-full-list/",
   "https://github.com/ilyankou/passport-index-dataset (MIT)"
  ],
  "countries": {
@@ -36,7 +38,8 @@
    "status": "visa required"
   },
   "Australia": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Austria": {
    "status": "visa required"
@@ -75,7 +78,8 @@
    "status": "e-visa"
   },
   "Bolivia": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Bosnia and Herzegovina": {
    "status": "visa required"
@@ -98,7 +102,9 @@
    "note": "Visa-free (AES states keep free movement for ECOWAS citizens)"
   },
   "Burundi": {
-   "status": "visa required"
+   "status": "visa on arrival",
+   "days": 30,
+   "note": "May need online pre-authorisation before travel"
   },
   "Cambodia": {
    "status": "visa on arrival",
@@ -115,7 +121,7 @@
   "Cape Verde": {
    "status": "visa-free",
    "days": 90,
-   "note": "ECOWAS free movement"
+   "note": "ECOWAS free movement; pre-register online (EASE) before travel"
   },
   "Central African Republic": {
    "status": "visa required"
@@ -125,7 +131,8 @@
    "days": 90
   },
   "Chile": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "China": {
    "status": "visa required"
@@ -164,8 +171,9 @@
    "status": "visa required"
   },
   "Djibouti": {
-   "status": "e-visa",
-   "days": 31
+   "status": "visa on arrival",
+   "days": 90,
+   "note": "Visa on arrival or e-Visa"
   },
   "Dominica": {
    "status": "visa-free",
@@ -175,13 +183,15 @@
    "status": "visa required"
   },
   "Ecuador": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Egypt": {
    "status": "visa required"
   },
   "El Salvador": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Equatorial Guinea": {
    "status": "e-visa"
@@ -196,9 +206,9 @@
    "status": "visa required"
   },
   "Ethiopia": {
-   "status": "visa on arrival",
+   "status": "e-visa",
    "days": 90,
-   "note": "Visa on arrival or e-visa"
+   "note": "Apply online before travel (visa on arrival no longer listed for Nigerians)"
   },
   "Fiji": {
    "status": "visa-free",
@@ -249,7 +259,8 @@
    "note": "ECOWAS free movement"
   },
   "Guyana": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Haiti": {
    "status": "visa-free",
@@ -268,7 +279,8 @@
    "status": "visa required"
   },
   "Indonesia": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Iran": {
    "status": "visa on arrival",
@@ -281,7 +293,8 @@
    "status": "visa required"
   },
   "Israel": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Italy": {
    "status": "visa required"
@@ -387,7 +400,8 @@
    "days": 30
   },
   "Moldova": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Monaco": {
    "status": "visa required"
@@ -410,7 +424,8 @@
    "status": "visa required"
   },
   "Namibia": {
-   "status": "visa on arrival"
+   "status": "e-visa",
+   "note": "Apply online before travel"
   },
   "Nauru": {
    "status": "visa required"
@@ -425,7 +440,8 @@
    "status": "visa required"
   },
   "Nicaragua": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Niger": {
    "status": "visa-free",
@@ -442,7 +458,8 @@
    "status": "visa required"
   },
   "Oman": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Pakistan": {
    "status": "e-visa"
@@ -459,7 +476,8 @@
    "status": "visa required"
   },
   "Papua New Guinea": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Paraguay": {
    "status": "visa required"
@@ -469,7 +487,8 @@
   },
   "Philippines": {
    "status": "e-visa",
-   "days": 59
+   "days": 59,
+   "note": "e-Visa (check eligibility on the official portal before applying)"
   },
   "Poland": {
    "status": "visa required"
@@ -491,13 +510,14 @@
    "status": "visa required"
   },
   "Rwanda": {
-   "status": "visa on arrival",
+   "status": "visa-free",
    "days": 30,
-   "note": "Visa on arrival or e-visa"
+   "note": "Visa-free for all African nationals"
   },
   "Saint Kitts and Nevis": {
-   "status": "visa-free",
-   "days": 90
+   "status": "eta",
+   "days": 90,
+   "note": "Visa-free stay, but an eTA must be approved before travel"
   },
   "Saint Lucia": {
    "status": "visa required"
@@ -507,7 +527,7 @@
   },
   "Samoa": {
    "status": "visa on arrival",
-   "days": 60
+   "days": 90
   },
   "San Marino": {
    "status": "visa required"
@@ -525,10 +545,13 @@
    "note": "ECOWAS free movement"
   },
   "Serbia": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Seychelles": {
-   "status": "visa required"
+   "status": "eta",
+   "days": 90,
+   "note": "Apply for a Travel Authorisation (ETA) online before departure; free Visitor's Permit on arrival"
   },
   "Sierra Leone": {
    "status": "visa-free",
@@ -536,7 +559,8 @@
    "note": "ECOWAS free movement"
   },
   "Singapore": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Slovakia": {
    "status": "visa required"
@@ -555,7 +579,8 @@
    "status": "e-visa"
   },
   "South Korea": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "South Sudan": {
    "status": "e-visa"
@@ -590,7 +615,7 @@
   },
   "Tanzania": {
    "status": "visa required",
-   "note": "Removed from 'referred visa' list Sep 2026 – standard visa process applies"
+   "note": "Removed from 'referred visa' list Sep 2026 – standard visa process applies; Online visa application available (check the official portal)"
   },
   "Thailand": {
    "status": "e-visa"
@@ -624,8 +649,8 @@
    "days": 30
   },
   "Uganda": {
-   "status": "visa on arrival",
-   "note": "Visa on arrival or e-visa"
+   "status": "e-visa",
+   "note": "Apply online before travel"
   },
   "Ukraine": {
    "status": "visa required"
@@ -637,7 +662,8 @@
    "status": "visa required"
   },
   "United States": {
-   "status": "visa required"
+   "status": "restricted",
+   "note": "Visitor (B-1/B-2), student (F/M/J) and immigrant visas suspended for Nigerians since 1 Jan 2026 (Proclamation 10998). Other visa types still possible."
   },
   "Uruguay": {
    "status": "visa required"
@@ -647,13 +673,14 @@
   },
   "Vanuatu": {
    "status": "visa-free",
-   "days": 30
+   "note": "Visa-free; length of stay 30–120 days"
   },
   "Vatican City": {
    "status": "visa required"
   },
   "Venezuela": {
-   "status": "visa required"
+   "status": "visa required",
+   "note": "Online visa application available (check the official portal)"
   },
   "Vietnam": {
    "status": "e-visa",
@@ -729,6 +756,42 @@
    "details": "Tanzania Immigration Services removed Nigerian nationals from its 'referred visa' category with immediate effect, following amendments in Government Gazette No. 246 of 2026. Holders of ordinary Nigerian passports no longer need special clearance from Tanzanian immigration (which could take up to about two months) before a visa is issued. A visa is still required, applied for through the standard online portal or at designated entry points.",
    "source": "https://www.thecable.ng/tanzania-removes-special-visa-clearance-requirement-for-nigerians/",
    "source_name": "TheCable (citing Tanzania Immigration Services notice)"
+  },
+  {
+   "id": "2026-01-01-united-states",
+   "date": "2026-01-01",
+   "country": "United States",
+   "type": "status-change",
+   "from": "visa required",
+   "to": "restricted",
+   "title": "USA suspends visitor, student and immigrant visas for Nigerians",
+   "details": "Under Presidential Proclamation 10998, the United States stopped issuing B-1/B-2 visitor visas, F, M and J student/exchange visas and immigrant visas to Nigerians from 1 January 2026. Visas already valid on that date are not revoked. Other visa types (e.g. some work visas) remain possible, and validity of other visas is being shortened.",
+   "source": "https://allafrica.com/stories/202512230245.html",
+   "source_name": "AllAfrica"
+  },
+  {
+   "id": "2026-rwanda-visa-free",
+   "date": "2026-01-01",
+   "country": "Rwanda",
+   "type": "status-change",
+   "from": "visa on arrival",
+   "to": "visa-free",
+   "title": "Rwanda: visa-free entry for Nigerians (all Africans)",
+   "details": "Rwanda allows citizens of all African countries, including Nigerians, to enter without a visa for up to 30 days. Carry a valid passport and proof of onward travel.",
+   "source": "https://www.passportindex.org/passport/nigeria/",
+   "source_name": "Passport Index 2026"
+  },
+  {
+   "id": "2026-10-16-data-review",
+   "date": "2026-10-16",
+   "country": "Several countries",
+   "type": "info",
+   "from": "",
+   "to": "",
+   "title": "Visa rules re-checked: 9 countries corrected",
+   "details": "A full review against Passport Index 2026 and 2026 visa-on-arrival lists corrected: United States (visas suspended), Rwanda (visa-free 30 days), Burundi (visa on arrival 30 days), Djibouti (visa on arrival 90 days), Seychelles and Saint Kitts and Nevis (online travel authorisation before travel), Ethiopia, Uganda and Namibia (e-Visa - apply online before travel). Countries with an online visa application now say so in their notes.",
+   "source": "https://www.passportindex.org/passport/nigeria/",
+   "source_name": "Passport Index 2026"
   }
  ]
 }
